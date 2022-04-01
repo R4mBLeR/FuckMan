@@ -1,0 +1,18 @@
+messages:
+  noperm: §cYou don't have permissions
+  error-name: §c Incorrect nickname
+  no-name-error: §cВведите ник игрока
+  fuck-message: §6Вы предложили трахаться игроку §6[player]
+  fuck2-message: §aИгрок §6[player] §fхочет вас выебать
+  fuck: §aВы выебали игрока §6[player]
+  fuck2: §aВаc выебал игрок §6[player]
+  suggest-message: §a§lВы согласны?
+  yes: §a§l[Да]
+  no: §4§l[Нет]
+  no-fuck: §cИгрок §6[player] §cотказался трахаться, вам не удалось его выебать
+  no-fuck2: §aВы отказались трахаться, игрок §6[player] §aне выебал вас
+  time-limit-message: §cВремя предложения истекло, игрок §6[player] §cне был выебан
+  time-limit-message2: §aВремя предложение истекло, вы не были выебаны
+settings:
+  spaces: 60
+  time: 30

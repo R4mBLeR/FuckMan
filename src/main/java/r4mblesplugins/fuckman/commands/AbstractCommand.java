@@ -1,15 +1,15 @@
-package r4mblerplugins.griefreportplugin.commands;
+package r4mblesplugins.fuckman.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.PluginCommand;
 import org.jetbrains.annotations.Nullable;
-import r4mblerplugins.griefreportplugin.GriefReportPlugin;
+import r4mblesplugins.fuckman.FuckMan;
 
 public abstract class AbstractCommand implements CommandExecutor {
     public AbstractCommand(String command) {
-        PluginCommand PluginCommand = GriefReportPlugin.GetInstance().getCommand(command);
+        PluginCommand PluginCommand = FuckMan.GetInstance().getCommand(command);
         if (PluginCommand != null) {
             PluginCommand.setExecutor(this);
         }

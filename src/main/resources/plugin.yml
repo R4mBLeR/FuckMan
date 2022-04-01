@@ -1,0 +1,16 @@
+name: FuckMan
+version: '${project.version}'
+main: r4mblesplugins.fuckman.FuckMan
+authors: [ R4mBLe_ ]
+description: Fuck your friends
+commands:
+  fuck:
+    aliases: [fuck, fuckman]
+  yes:
+    aliases: [y,yes]
+  no:
+    aliases: [n,no]
+
+permissions:
+  fuck:
+    default: true
