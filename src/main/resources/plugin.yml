@@ -6,10 +6,8 @@ description: Fuck your friends
 commands:
   fuck:
     aliases: [fuck, fuckman]
-  yes:
-    aliases: [y,yes]
-  no:
-    aliases: [n,no]
+  deny:
+    aliases: [deny]
 
 permissions:
   fuck:

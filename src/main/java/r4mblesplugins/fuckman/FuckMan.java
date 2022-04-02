@@ -2,14 +2,13 @@ package r4mblesplugins.fuckman;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-import r4mblesplugins.fuckman.commands.nocommand;
+import r4mblesplugins.fuckman.commands.denyCommand;
 import r4mblesplugins.fuckman.commands.sexCommand;
-import r4mblesplugins.fuckman.commands.yescommand;
 
 public final class FuckMan extends JavaPlugin {
     private static FuckMan instance;
     public static FileConfiguration config;
-    public static boolean accept;
+    public static boolean accept=false;
 
     @Override
     public void onEnable() {
@@ -17,9 +16,7 @@ public final class FuckMan extends JavaPlugin {
         config = getConfig();
         saveDefaultConfig();
         new sexCommand();
-        new yescommand();
-        new nocommand();
-
+        new denyCommand();
     }
 
     @Override
