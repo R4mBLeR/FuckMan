@@ -8,7 +8,7 @@ import r4mblesplugins.fuckman.commands.sexCommand;
 public final class FuckMan extends JavaPlugin {
     private static FuckMan instance;
     public static FileConfiguration config;
-    public static boolean accept=false;
+    public static boolean accept = false;
 
     @Override
     public void onEnable() {
