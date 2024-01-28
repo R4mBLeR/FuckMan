@@ -1,5 +1,5 @@
 - Minecraft Plugin to fuck your friends <3
-- Plugin for Minecraft 1.12-1.20
+- Plugin for Minecraft 1.16-1.20.4
 
 **VERSION NODES**
 
