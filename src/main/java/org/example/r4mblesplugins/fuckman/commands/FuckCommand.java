@@ -37,8 +37,8 @@ public class FuckCommand extends AbstractCommand {
             return;
         }
         Player player2 = Bukkit.getPlayer(args[0]);
-        //if(player1.getName().equals(player2.getName()))
-        // {player1.sendMessage(FuckMan.config.getString("messages.fuck-me")); return;}
+        if(player1.getName().equals(player2.getName()))
+        {player1.sendMessage(FuckMan.config.getString("messages.fuck-me")); return;}
         player2.sendMessage(FuckMan.config.getString("messages.fuck2-message").replace("[player]", player1.getName()));
         TextComponent component = new TextComponent(FuckMan.config.getString("messages.suggest"));
         String command = "/deny";
