@@ -1,0 +1,13 @@
+messages:
+  noperm: §cYou don't have permissions
+  error-name: §c Incorrect nickname
+  no-name-error: §cВведите ник игрока
+  fuck-me: §cСебя ебать нельзя
+  fuck-message: §aВы предложили трахаться игроку §6[player]
+  fuck2-message: §aИгрок §6[player] §fхочет вас выебать
+  fuck: §aВы выебали игрока §6 [player]
+  fuck2: §aВаc выебал игрок §6 [player]
+  no-fuck: §cВремя предложения истекло, вы не выебали игрока §6[player]
+  no-fuck2: §cВремя предложения истекло, вас не выебал игрок §6[player]
+  suggest: §a§lВы согласны?
+  click-message: click to deny
